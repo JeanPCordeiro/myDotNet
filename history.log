@@ -1,0 +1,126 @@
+    1  dotnet
+    2  dotnet --info
+    3  dotnet --info
+    4  dotnet add package Microsoft.EntityFrameworkCore.SQLite
+    5  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+    6  dotnet add package Microsoft.EntityFrameworkCore.Design
+    7  dotnet add package Microsoft.EntityFrameworkCore.Tools
+    8  dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+    9  dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
+   10  dotnet add package Microsoft.EntityFrameworkCore.SQLite
+   11  dotnet tool install --global dotnet-ef
+   12  dotnet-ef
+   13  export PATH="$PATH:/home/gitpod/.dotnet/tools"
+   14  dotnet-ef
+   15  dotnet-ef --version
+   16  dotnet ef database update
+   17  dotnet new webapp -o ContosoUniversity
+   18  cd ContosoUniversity 
+   19  dotnet add package Microsoft.EntityFrameworkCore.SQLite
+   20  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   21  dotnet add package Microsoft.EntityFrameworkCore.Design
+   22  dotnet add package Microsoft.EntityFrameworkCore.Tools
+   23  dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+   24  dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
+   25  sudo apt upgrade
+   26  sudo apt update
+   27  dotnet info
+   28  dotnet -info
+   29  dotnet --info
+   30  dotnet add package Microsoft.EntityFrameworkCore.SQLite
+   31  sudo apt-get update &&   sudo apt-get install -y dotnet-sdk-9.0
+   32  dotnet --list-sdks
+   33  dotnet --list-runtimes
+   34  wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+   35  sudo dpkg -i packages-microsoft-prod.deb
+   36  rm packages-microsoft-prod.deb
+   37  sudo apt-get update &&   sudo apt-get install -y dotnet-sdk-9.0
+   38  dotnet --list-runtimes
+   39  dotnet --list-sdks
+   40  dotnet --info
+   41  sudo add-apt-repository ppa:dotnet/backports
+   42  sudo apt-get update &&   sudo apt-get install -y dotnet-sdk-9.0
+   43  sudo apt-get update &&   sudo apt-get install -y aspnetcore-runtime-9.0
+   44  sudo apt-get install -y dotnet-runtime-9.0
+   45  dotnet --info
+   46  dotnet --list-sdks
+   47  dotnet add package Microsoft.EntityFrameworkCore.SQLite
+   48  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   49  dotnet add package Microsoft.EntityFrameworkCore.Design
+   50  dotnet add package Microsoft.EntityFrameworkCore.Tools
+   51  dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+   52  dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
+   53  cd ContosoUniversity/
+   54  dotnet add package Microsoft.EntityFrameworkCore.SQLite
+   55  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   56  dotnet add package Microsoft.EntityFrameworkCore.Design
+   57  dotnet add package Microsoft.EntityFrameworkCore.Tools
+   58  dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+   59  dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
+   60  sudo add-apt-repository -y ppa:dotnet/backports
+   61  cd ..
+   62  sudo add-apt-repository -y ppa:dotnet/backports
+   63  sudo apt update
+   64  sudo apt install -y apt-rdepends wget grep gawk findutils
+   65  apt-rdepends -p dotnet-runtime-9.0 | grep NotInstalled | grep -E -v "(dotnet)|(debconf)" | awk '/Depends:/{print$2}' | xargs apt install
+   66  sudo apt-rdepends -p dotnet-runtime-9.0 | grep NotInstalled | grep -E -v "(dotnet)|(debconf)" | awk '/Depends:/{print$2}' | xargs apt install
+   67  sudo apt-rdepends -p dotnet-runtime-9.0 | grep NotInstalled | grep -E -v "(dotnet)|(debconf)" | awk '/Depends:/{print$2}' | sudo xargs apt install
+   68  dotnet --info
+   69  wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh
+   70  ls
+   71  chmod +x ./dotnet-install.sh
+   72  ./dotnet-install.sh --version latest
+   73  ./dotnet-install.sh --channel 9.0
+   74  dotnet --info
+   75  dotnet --list-sdk
+   76  dotnet --list-sdks
+   77  dotnet --info
+   78  dotnet add
+   79  dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
+   80  cd ContosoUniversity/
+   81  dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
+   82  cd ..
+   83  dotnet new webapp -o ContosoUniversity
+   84  cd ContosoUniversity
+   85  dotnet add package Microsoft.EntityFrameworkCore.SQLite
+   86  dotnet --list-sdks
+   87  dotnet --list-runtimes
+   88  dotnet add package Microsoft.EntityFrameworkCore.SQLite
+   89  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   90  dotnet add package Microsoft.EntityFrameworkCore.Design
+   91  dotnet add package Microsoft.EntityFrameworkCore.Tools
+   92  dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+   93  dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
+   94  dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore _h
+   95  dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore -v 8.0
+   96  cd ..
+   97  dotnet new webapp -o ContosoUniversity
+   98  cd ContosoUniversity/
+   99  dotnet add package Microsoft.EntityFrameworkCore.SQLite -v 8.0
+  100  dotnet add package Microsoft.EntityFrameworkCore.SqlServer -v 8.0
+  101  dotnet add package Microsoft.EntityFrameworkCore.Design -v 8.0
+  102  dotnet add package Microsoft.EntityFrameworkCore.Tools -v 8.0
+  103  dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design -v 8.0
+  104  dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore -v8.0
+  105  dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore -v 8.0
+  106  dotnet tool install --global dotnet-aspnet-codegenerator
+  107  dotnet-aspnet-codegenerator*
+  108  export PATH="$PATH:/home/gitpod/.dotnet/tools"
+  109  dotnet-aspnet-codegenerator*
+  110  dotnet-aspnet-codegenerator
+  111  dotnet runb
+  112  dotnet run
+  113  cd ContosoUniversity/
+  114  dotnet run
+  115  dotnet aspnet-codegenerator razorpage -m Student -dc ContosoUniversity.Data.SchoolContext -udl -outDir Pages/Students --referenceScriptLibraries -dbProvider sqlite
+  116  dotnet run
+  117  de ContosoUniversity/
+  118  cd ContosoUniversity/
+  119  ls -l
+  120  dotnet run
+  121  cd ContosoUniversity/
+  122  dotrun run
+  123  dotnet run
+  124  history
+  125  history h
+  126  history > history.log
